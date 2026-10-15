@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void main()
+{
+    char name[70];
+    // clrscr();
+
+    printf("Enter your name:");
+    scanf("%s", name);
+
+    printf("Hello! %s", name);
+    printf("\nWelcome to Robotics Automation %s", name);
+
+    // getch();
+}

@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+void main()
+{
+    float temperature;
+    int threshold = 80;
+    int critical = 100;
+
+    // clrscr();
+
+    printf("Enter your temperature: ");
+    scanf("%f", &temperature);
+
+    if (temperature <= threshold)
+    {
+        printf("Patient Status: Normal");
+    }
+    else if (temperature <= critical)
+    {
+        printf("Patient Status: Warning");
+    }
+    else
+    {
+        printf("Patient Status: Critical");
+    }
+
+    // getch();
+}
